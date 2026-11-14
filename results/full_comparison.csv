@@ -1,0 +1,6 @@
+model,display_name,accuracy,balanced_accuracy,pred_chroma,true_chroma,test_l1,psnr,ssim
+resnet18_unet,ResNet18 U-Net,0.592,0.2512,7.89,15.13,0.0764,23.989,0.9214
+attention_unet,Attention U-Net,0.5549,0.163,5.88,15.13,0.0808,23.647,0.9183
+autoencoder,Conv Autoencoder,0.5464,0.1543,5.35,15.13,0.0816,23.623,0.9158
+pix2pix_unet,Pix2Pix U-Net,0.5181,0.1534,7.06,15.13,0.0884,22.858,0.8884
+classic_unet,Classic U-Net,0.5524,0.1474,5.2,15.13,0.0817,23.591,0.9189

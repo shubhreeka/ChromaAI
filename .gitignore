@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset (re-create with: python -m src.download_data)
+data/
+
+# Model weights (too large for git; see README)
+checkpoints/*.pt
+
+*.mp4
+.DS_Store
+Thumbs.db
+desktop.ini
